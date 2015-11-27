@@ -660,7 +660,7 @@ aside.clients img {
     margin: 50px auto;
 }
 
-section#contact {
+/* section#contact {
     background-color: #222;
     background-image: url(../img/map-image.png);
     background-position: center;
@@ -669,7 +669,8 @@ section#contact {
 
 section#contact .section-heading {
     color: #fff;
-}
+}*/
+
 
 section#contact .form-group {
     margin-bottom: 25px;
