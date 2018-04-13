@@ -23,7 +23,7 @@ p {
 }
 
 p.large {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 a,
@@ -170,7 +170,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-text-glow {
-    text-shadow: 0 0 .1em, 0 0 .3em;
+     
+text-shadow: .70px .70px #333, -.70px -.70px #333, .70px -.70px #333, -.70px .70px #333;
 }
 
 .text-stoked {
@@ -184,7 +185,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #fed136;
 }
 
@@ -239,6 +240,29 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fec503;
 }
 
+
+.acaImage, 
+.freeCodeCampImage, 
+.utsaImage {
+  height: 100px;
+}
+
+
+.fccEducation, 
+.acaEducation, 
+.utsaEducation, 
+.ongoingEdu {
+    padding: 60px;
+    font-size: 18px;
+}
+
+.baduHeadshot {
+    border-radius: .8em;
+    padding: 1em;
+    box-shadow: 0 0 0 .6em #655;
+    outline: .6em solid #655;
+}
+
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
@@ -281,6 +305,7 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    opacity: .7;
 }
 
 header .intro-text {
